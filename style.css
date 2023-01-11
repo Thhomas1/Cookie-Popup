@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 .text{
-  width: 70%;
+  width: 80%;
   
 }
 .cookie-title {
@@ -34,8 +34,8 @@
 }
 .cookie-subtitle{
   font-weight: bold;
-  padding: 0.5rem 0rem;
-  font-size: 0.7rem;
+  padding: 0.8rem 0rem;
+  font-size: 0.8rem;
 }
 button{
   border-style: none; /* non border */
