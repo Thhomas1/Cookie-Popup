@@ -31,6 +31,7 @@
 }
 .cookie{
   transform: scale(0.8);
+  overflow: visible;
 }
 .cookie-subtitle{
   font-weight: bold;
@@ -45,4 +46,10 @@ button{
   font-size: 0.7rem;
   font-weight: bold;
   border-radius: 0.3rem;
+}
+button:hover{
+  background: rgb(99,41,4);
+  background: linear-gradient(90deg, rgba(99,41,4,1) 14%, rgba(98,80,14,1) 100%);
+  border: white;
+  color: white;
 }

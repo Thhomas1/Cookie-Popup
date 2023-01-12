@@ -14,7 +14,8 @@ const button = document.querySelector('button');
 
 // Cookie saltito uwu
 
-tl.fromTo('.cookie', {})
+tl.fromTo('.cookie', {y:0, rotation: '0deg'}, {y:-20, rotation:'-20deg', yoyo: true, repeat: -1})
+tl.fromTo('#crumbs', {y:0}, {y:-20, yoyo: true, repeat: -1}, '<')
 
 
 
