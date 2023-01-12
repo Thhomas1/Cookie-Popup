@@ -10,6 +10,22 @@ tl.fromTo('.text', {x:30, opacity:0}, {x: 0, opacity: 1}, '<') // ! El pacman es
 
 const button = document.querySelector('button');
 
+
+
+// Cookie saltito uwu
+
+tl.fromTo('.cookie', {})
+
+
+
+
+
+
+
+
+//Fade Cookie
+
+
 button.addEventListener('click', ()  => {
     gsap.to('.cookie-container', {opacity: 0, y:100, duration: 0.75, ease: "circ.out"})
 })
